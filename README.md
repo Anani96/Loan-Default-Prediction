@@ -2,22 +2,22 @@
 
 LendingClub is a US peer-to-peer lending company, headquartered in San Francisco, California.[3] It was the first peer-to-peer lender to register its offerings as securities with the Securities and Exchange Commission (SEC), and to offer loan trading on a secondary market. LendingClub is the world's largest peer-to-peer lending platform.
 
-Our Goal
+## Our Goal
 Given historical data on loans given out with information on whether or not the borrower defaulted (charge-off), can we build a model thatcan predict wether or nor a borrower will pay back their loan? This way in the future when we get a new potential customer we can assess whether or not they are likely to pay back the loan. Keep in mind classification metrics when evaluating the performance of your model!
 
 The "loan_status" column contains our label.
 here are many LendingClub data sets on Kaggle. Here is the information on this particular data set:
 
-LoanStatNew	Description
-0	loan_amnt	The listed amount of the loan applied for by the borrower. If at some point in time, the credit department reduces the loan amount, then it will be reflected in this value.
-1	term	The number of payments on the loan. Values are in months and can be either 36 or 60.
-2	int_rate	Interest Rate on the loan
-3	installment	The monthly payment owed by the borrower if the loan originates.
-4	grade	LC assigned loan grade
-5	sub_grade	LC assigned loan subgrade
-6	emp_title	The job title supplied by the Borrower when applying for the loan.*
-7	emp_length	Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years.
-8	home_ownership	The home ownership status provided by the borrower during registration or obtained from the credit report. Our values are: RENT, OWN, MORTGAGE, OTHER
+## LoanStatNew	Description
+loan_amnt-The listed amount of the loan applied for by the borrower. If at some point in time, the credit department reduces the loan amount, then it will be reflected in this value.
+term-The number of payments on the loan. Values are in months and can be either 36 or 60.
+int_rate-Interest Rate on the loan
+installment	The monthly payment owed by the borrower if the loan originates.
+grade	LC assigned loan grade
+sub_grade	LC assigned loan subgrade
+emp_title	The job title supplied by the Borrower when applying for the loan.*
+emp_length	Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years.
+home_ownership	The home ownership status provided by the borrower during registration or obtained from the credit report. Our values are: RENT, OWN, MORTGAGE, OTHER
 9	annual_inc	The self-reported annual income provided by the borrower during registration.
 10	verification_status	Indicates if income was verified by LC, not verified, or if the income source was verified
 11	issue_d	The month which the loan was funded
@@ -37,4 +37,4 @@ LoanStatNew	Description
 25	application_type	Indicates whether the loan is an individual application or a joint application with two co-borrowers
 26	mort_acc	Number of mortgage accounts.
 27	pub_rec_bankruptcies	Number of public record bankruptcies
-Starter Code
+
